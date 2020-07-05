@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-05-25 00:36\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-07-19 19:52-0300\n"
+"PO-Revision-Date: 2020-07-19 23:35\n"
+"Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
@@ -12,8 +12,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: tabbycat\n"
+"X-Crowdin-Project-ID: 364715\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /develop/tabbycat/draw/locale/en/LC_MESSAGES/django.po\n"
+"X-Crowdin-File-ID: 930\n"
 
 #: draw/admin.py:67
 #, python-format
@@ -182,148 +184,137 @@ msgstr "Опция «команды в дебатах» не распознан�
 msgid "The break size (%(size)d) for this break category was invalid. It must be either six times or four times a power of two."
 msgstr "Размер брейка (%(size)d) для этой категории не валиден. Он должен быть либо шесть раз либо четыре раза в степени 2."
 
-#: draw/models.py:27
+#: draw/models.py:28
 msgid "none"
 msgstr "нет"
 
-#: draw/models.py:28
+#: draw/models.py:29
 msgid "postponed"
 msgstr "отложен"
 
-#: draw/models.py:29
+#: draw/models.py:30
 msgid "draft"
 msgstr "черновик"
 
-#: draw/models.py:30
+#: draw/models.py:31
 msgid "confirmed"
 msgstr "подтвержденные"
 
-#: draw/models.py:36 draw/models.py:389
+#: draw/models.py:37 draw/models.py:384
 msgid "round"
 msgstr "раунд"
 
-#: draw/models.py:38
-msgid "venue"
+#: draw/models.py:39
+msgid "room"
 msgstr "аудитория"
 
-#: draw/models.py:41
+#: draw/models.py:42
 msgid "bracket"
 msgstr "значение баллов команд"
 
-#: draw/models.py:43
+#: draw/models.py:44
 msgid "room rank"
 msgstr "место команды"
 
-#: draw/models.py:49
+#: draw/models.py:50
 msgid "importance"
 msgstr "значение"
 
-#: draw/models.py:51
+#: draw/models.py:52
 msgid "result status"
 msgstr "статус результата"
 
-#: draw/models.py:53
+#: draw/models.py:54
 msgid "sides confirmed"
 msgstr "стороны подтверждены"
 
-#: draw/models.py:54
+#: draw/models.py:55
 msgid "If unchecked, the sides assigned to teams in this debate are just placeholders."
 msgstr "Если не отмечено, то стороны, назначенные командам в этой дискуссии, являются просто заменителями."
 
-#: draw/models.py:57 draw/models.py:272
+#: draw/models.py:58 draw/models.py:273
 msgid "debate"
 msgstr "дебаты"
 
-#: draw/models.py:58
+#: draw/models.py:59
 msgid "debates"
 msgstr "дебаты"
 
 #. Translators: This is appended to a list of teams, e.g. "Auckland
 #. 1, Vic Wellington 1 (sides not confirmed)". Mind the leading
 #. space.
-#: draw/models.py:77 draw/models.py:102
+#: draw/models.py:78 draw/models.py:103
 msgid " (sides not confirmed)"
 msgstr " (стороны не подтверждены)"
 
 #. Translators: This goes between teams in a debate, e.g. "Auckland 1
 #. vs Vic Wellington 1". Mind the leading and trailing spaces.
-#: draw/models.py:89 draw/models.py:106
+#: draw/models.py:90 draw/models.py:107
 msgid " vs "
 msgstr " против "
 
-#: draw/models.py:262
+#: draw/models.py:263
 msgid "affirmative"
 msgstr "утверждение"
 
-#: draw/models.py:263
+#: draw/models.py:264
 msgid "negative"
 msgstr "отрицание"
 
-#: draw/models.py:264
+#: draw/models.py:265
 msgid "opening government"
 msgstr "первое правительство"
 
-#: draw/models.py:265
+#: draw/models.py:266
 msgid "opening opposition"
 msgstr "первая оппозиция"
 
-#: draw/models.py:266
+#: draw/models.py:267
 msgid "closing government"
 msgstr "второе правительство"
 
-#: draw/models.py:267
+#: draw/models.py:268
 msgid "closing opposition"
 msgstr "вторая оппозиция"
 
-#: draw/models.py:274 draw/models.py:391
+#: draw/models.py:275 draw/models.py:386
 msgid "team"
 msgstr "команда"
 
-#: draw/models.py:276 draw/models.py:393
+#: draw/models.py:277 draw/models.py:388
 msgid "side"
 msgstr "сторона"
 
-#: draw/models.py:282
+#: draw/models.py:283
 msgid "debate team"
 msgstr "команда"
 
-#: draw/models.py:283
+#: draw/models.py:284
 msgid "debate teams"
 msgstr "команды"
 
-#: draw/models.py:311
-msgid "placed 1st"
-msgstr "заняли 1е"
+#: draw/models.py:312
+#, python-format
+msgid "placed %(place)s"
+msgstr "заняли %(place)s"
 
-#: draw/models.py:313
-msgid "placed 2nd"
-msgstr "заняли 2е"
-
-#: draw/models.py:315
-msgid "placed 3rd"
-msgstr "заняли 3е"
-
-#: draw/models.py:317
-msgid "placed 4th"
-msgstr "заняли 4е"
-
-#: draw/models.py:319 draw/models.py:326
+#: draw/models.py:314 draw/models.py:321
 msgid "result unknown"
 msgstr "результат неизвестен"
 
-#: draw/models.py:322
+#: draw/models.py:317
 msgid "won"
 msgstr "выиграли"
 
-#: draw/models.py:324
+#: draw/models.py:319
 msgid "lost"
 msgstr "проиграли"
 
-#: draw/models.py:397
+#: draw/models.py:392
 msgid "team side allocation"
 msgstr "распределение команды на сторону"
 
-#: draw/models.py:398
+#: draw/models.py:393
 msgid "team side allocations"
 msgstr "распределение команд по сторонам"
 

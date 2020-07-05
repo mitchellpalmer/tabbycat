@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-05-25 01:05\n"
+"POT-Creation-Date: 2020-08-30 20:00-0300\n"
+"PO-Revision-Date: 2020-08-30 23:06\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-Crowdin-Project: tabbycat\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /develop/tabbycat/tournaments/locale/en/LC_MESSAGES/django.po\n"
+"X-Crowdin-Project-ID: 364715\n"
+"X-Crowdin-File-ID: 952\n"
 
 #: tournaments/apps.py:7
 msgid "Tournaments"
@@ -330,9 +332,6 @@ msgid "current round: %(round)s, status: %(status)s"
 msgstr "текущий раунд:%(round)s, статус: %(status)s"
 
 #: tournaments/templates/blank_site_start.html:7
-msgid "Welcome to Tabbycat"
-msgstr "Добро пожаловать в Tabbycat"
-
 #: tournaments/templates/blank_site_start.html:20
 msgid "Welcome to Tabbycat!"
 msgstr "Добро пожаловать в Tabbycat!"
@@ -346,7 +345,7 @@ msgid "You can only create this account once, but if you like, you can change th
 msgstr "Вы можете создать этот аккаунт только однажды, но при желании вы можете изменить логин и пароль после создания, или добавить новых супер-пользователей позднее."
 
 #: tournaments/templates/blank_site_start.html:32
-msgid "The e-mail address is used for password resets. You don't have to provide one, but if you don't, you won't be able to reset your password if you forget it."
+msgid "The email address is used for password resets. You don't have to provide one, but if you don't, you won't be able to reset your password if you forget it."
 msgstr "Email-адрес используется для восстановления пароля. Вы можете не предоставлять его, но если не предоставите, вы не сможете восстановить пароль если вы его забыли."
 
 #: tournaments/templates/blank_site_start.html:40
@@ -759,8 +758,8 @@ msgstr "Отправить пробный email"
 
 #: tournaments/templates/site_index.html:69
 #, python-format
-msgid "Change Password (%(user)s)"
-msgstr "Поменять пароль %(user)s"
+msgid "Get API Token / Change Password (%(user)s)"
+msgstr ""
 
 #: tournaments/templates/site_index.html:73
 #, python-format
