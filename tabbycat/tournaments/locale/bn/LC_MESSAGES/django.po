@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-06-16 11:49\n"
+"POT-Creation-Date: 2020-08-30 20:00-0300\n"
+"PO-Revision-Date: 2020-08-30 23:05\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -332,9 +332,6 @@ msgid "current round: %(round)s, status: %(status)s"
 msgstr ""
 
 #: tournaments/templates/blank_site_start.html:7
-msgid "Welcome to Tabbycat"
-msgstr ""
-
 #: tournaments/templates/blank_site_start.html:20
 msgid "Welcome to Tabbycat!"
 msgstr ""
@@ -348,7 +345,7 @@ msgid "You can only create this account once, but if you like, you can change th
 msgstr ""
 
 #: tournaments/templates/blank_site_start.html:32
-msgid "The e-mail address is used for password resets. You don't have to provide one, but if you don't, you won't be able to reset your password if you forget it."
+msgid "The email address is used for password resets. You don't have to provide one, but if you don't, you won't be able to reset your password if you forget it."
 msgstr ""
 
 #: tournaments/templates/blank_site_start.html:40
@@ -513,7 +510,7 @@ msgstr ""
 #: tournaments/templates/public_tournament_index.html:9
 #, python-format
 msgid "Welcome to %(tournament)s"
-msgstr ""
+msgstr "%(tournament)s এ স্বাগতম"
 
 #: tournaments/templates/public_tournament_index.html:18
 msgid "There is currently no public information available for this tournament."
@@ -552,7 +549,7 @@ msgstr ""
 #: tournaments/templates/public_tournament_index.html:88
 #: tournaments/templates/public_tournament_index.html:135
 msgid "Sides"
-msgstr ""
+msgstr "পক্ষ"
 
 #: tournaments/templates/public_tournament_index.html:97
 #: tournaments/templates/public_tournament_index.html:201
@@ -575,24 +572,24 @@ msgstr ""
 
 #: tournaments/templates/public_tournament_index.html:117
 msgid "Check-Ins"
-msgstr ""
+msgstr "আগমন"
 
 #: tournaments/templates/public_tournament_index.html:123
 msgid "Results"
-msgstr ""
+msgstr "ফলাফল"
 
 #: tournaments/templates/public_tournament_index.html:129
 msgid "Motions"
-msgstr ""
+msgstr "প্রস্তাবসমূহ"
 
 #: tournaments/templates/public_tournament_index.html:141
 msgid "Team Standings"
-msgstr ""
+msgstr "দলের প্রতিযোগিতামূলক অবস্থান"
 
 #: tournaments/templates/public_tournament_index.html:148
 #, python-format
 msgid "%(category)s Break"
-msgstr ""
+msgstr "উন্নীতকরণ %(category)s"
 
 #: tournaments/templates/public_tournament_index.html:157
 msgid "Breaking Adjudicators"
@@ -729,7 +726,7 @@ msgstr ""
 
 #: tournaments/templates/site_index.html:4
 msgid "Welcome!"
-msgstr ""
+msgstr "স্বাগতম!"
 
 #: tournaments/templates/site_index.html:20
 msgid "It looks like there aren't any tournaments on this site. Would you like to create one?"
@@ -757,7 +754,7 @@ msgstr ""
 
 #: tournaments/templates/site_index.html:69
 #, python-format
-msgid "Change Password (%(user)s)"
+msgid "Get API Token / Change Password (%(user)s)"
 msgstr ""
 
 #: tournaments/templates/site_index.html:73
@@ -767,7 +764,7 @@ msgstr ""
 
 #: tournaments/templates/site_index.html:79
 msgid "Log In as Admin"
-msgstr ""
+msgstr "পরিচালক হিসেবে লুগ ইন করুন"
 
 #: tournaments/templates/tournament_index.html:8
 #, python-format
