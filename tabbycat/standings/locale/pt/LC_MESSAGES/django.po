@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tabbycat\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-24 04:15-0300\n"
-"PO-Revision-Date: 2020-05-24 07:37\n"
+"POT-Creation-Date: 2020-07-05 13:59-0300\n"
+"PO-Revision-Date: 2020-07-05 17:05\n"
 "Last-Translator: philip_tc\n"
 "Language-Team: Portuguese\n"
 "Language: pt_PT\n"
@@ -15,6 +15,8 @@ msgstr ""
 "X-Crowdin-Project: tabbycat\n"
 "X-Crowdin-Language: pt-PT\n"
 "X-Crowdin-File: /develop/tabbycat/standings/locale/en/LC_MESSAGES/django.po\n"
+"X-Crowdin-Project-ID: 364715\n"
+"X-Crowdin-File-ID: 950\n"
 
 #: standings/base.py:283
 msgid "The same metric would be added twice:"
@@ -601,4 +603,12 @@ msgstr "Colocações atuais das Duplas"
 #: standings/views.py:596
 msgid "Points"
 msgstr "Pontos"
+
+#: standings/views.py:642
+msgid "Feedback Overview"
+msgstr "Visão geral do feedback"
+
+#: standings/views.py:659
+msgid "An adjudicator's score is determined by a customisable mix of their base score and their feedback ratings. The current mix is specified below as the 'Score Components.' Feedback ratings are determined by averaging the results of all individual pieces of feedback across all rounds. <a href='http://tabbycat.readthedocs.io/en/stable/features/adjudicator-feedback.html#how-is-an-adjudicator-s-score-determined'>Read more</a>."
+msgstr ""
 
