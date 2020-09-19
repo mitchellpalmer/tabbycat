@@ -30,6 +30,7 @@ issues-*.html
 # Tags
 tags
 
+# Development related
 env/
 venv/
 venv-*/
@@ -40,6 +41,8 @@ venv-*/
 .DS_Store
 .debug
 .eslintcache
+.idea
+tabbycat/media
 
 # C extensions
 *.so
