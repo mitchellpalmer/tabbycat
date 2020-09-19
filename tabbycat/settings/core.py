@@ -272,15 +272,9 @@ SUMMERNOTE_CONFIG = {
         ['insert', ['link', 'picture']],
         ['misc', ['undo', 'redo', 'codeview']],
     ],
-    'disable_upload': False,
+    'disable_upload': True,
     'iframe': True, # Necessary; if just to compartmentalise jQuery dependency,
 }
-
-X_FRAME_OPTIONS = 'SAMEORIGIN' # https://github.com/TabbycatDebate/tabbycat/issues/1517#issuecomment-647054703
-
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
-
 
 # ==============================================================================
 # Database
