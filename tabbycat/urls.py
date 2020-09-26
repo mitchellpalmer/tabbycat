@@ -84,6 +84,11 @@ urlpatterns = [
     # Tournament URLs
     path('<slug:tournament_slug>/',
         include('tournaments.urls')),
+
+    # Handle database blob files
+    path('files/', include('db_file_storage.urls')),
+
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG and settings.ENABLE_DEBUG_TOOLBAR:  # Only serve debug toolbar when on DEBUG

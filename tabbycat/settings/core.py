@@ -119,6 +119,7 @@ TABBYCAT_APPS = (
     'standings',
     'notifications',
     'importer',
+    'images'
 )
 
 INSTALLED_APPS = (
@@ -141,6 +142,7 @@ INSTALLED_APPS = (
     'polymorphic',
     'rest_framework',
     'rest_framework.authtoken',
+    'db_file_storage'
 )
 
 ROOT_URLCONF = 'urls'
@@ -262,7 +264,6 @@ MESSAGE_TAGS = {messages.ERROR: 'danger', }
 # ==============================================================================
 
 SUMMERNOTE_THEME = 'bs4' # Bootstrap 4
-
 SUMMERNOTE_CONFIG = {
     'width': '100%',
     'height': '480',
@@ -274,6 +275,9 @@ SUMMERNOTE_CONFIG = {
     ],
     'disable_upload': False,
     'iframe': True, # Necessary; if just to compartmentalise jQuery dependency,
+    'attachment_require_authentication': True,
+    'attachment_model': 'images.BlobAttachment',
+    'attachment_storage_class':'db_file_storage.storage.DatabaseFileStorage'
 }
 
 X_FRAME_OPTIONS = 'SAMEORIGIN' # https://github.com/TabbycatDebate/tabbycat/issues/1517#issuecomment-647054703
